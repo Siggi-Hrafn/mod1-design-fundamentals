@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    background-color: rgb(159, 218, 255);
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.0rem;
+}
+
+.section-hdl {
+    display: block;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+    margin: 2rem 0rem;
+    padding: 4rem 3rem;
+    background-color: rgb(222, 222, 222);
+}
+
+.section-example {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(86, 86, 86);
+    padding: 4rem 0.2rem;
+    margin-top: -2rem;
+}
+
+.card {
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+}
+/*  ====== Whitespace ====== */
+.secondary {
+    padding: 3rem;
+    border-radius: 0.8rem;
+}
+
+.secondary h1 {
+    margin-bottom: 1.2rem;
+}
+
+.secondary p {
+    line-height: 1.6rem;
+}
