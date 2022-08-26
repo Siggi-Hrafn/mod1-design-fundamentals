@@ -20,13 +20,17 @@ p {
     font-size: 1.0rem;
 }
 
+.page-title {
+    padding: 3rem;
+}
+
 .section-hdl {
     display: block;
-    color: rgb(53, 53, 53);
-    text-transform: capitalize;
+    color: rgb(212, 240, 253);
+    text-transform: uppercase;
     margin: 2rem 0rem;
     padding: 4rem 3rem;
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(128, 188, 218);
 }
 
 .section-example {
@@ -54,4 +58,70 @@ p {
 
 .secondary p {
     line-height: 1.6rem;
+}
+
+
+/*  ====== Alignment ====== */
+
+.section-example-align {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(86, 86, 86);
+    padding: 4rem 0.2rem;
+    margin-top: -2rem;
+}
+
+.align-card {
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 3rem 2rem 3rem;
+    border-radius: 0.8rem;
+}
+
+.align-card h1 {
+    font-size: 3rem;
+    margin:0;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.align-card h3 {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: rgb(104, 104, 104);
+    text-transform: uppercase;
+}
+
+.align-card p {
+    line-height: 1.5rem;
+    margin-left: 1.3rem;
+}
+
+.align-card button {
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: rgb(0, 88, 138);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.8rem;
+}
+
+/*  ====== Alignment fixes ====== */
+
+.align-secondary h1 {
+    margin-left: 0;
+}
+
+.align-secondary p {
+    margin-left: 0;
+}
+
+.align-secondary button {
+    margin-left: 0;
 }
