@@ -125,3 +125,78 @@ p {
 .align-secondary button {
     margin-left: 0;
 }
+
+/*  ====== Alignment ====== */
+
+.section-example-contrast {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(86, 86, 86);
+    padding: 4rem 0.2rem;
+    margin-top: -2rem;
+}
+
+.contrast-card {
+    width: 25rem;
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 1rem 3rem 2rem 3rem;
+    border-radius: 0.8rem;
+
+}
+
+.contrast-card h1 {
+    color: rgb(96, 96, 96);
+    font-size: 3rem;
+    margin:0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contrast-card h3 {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: rgb(192, 190, 190);
+    text-transform: uppercase;
+}
+
+.contrast-card p {
+    font-weight: 100;
+    color: rgb(141, 121, 96);
+    line-height: 1.5rem;
+}
+
+.contrast-card button {
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: rgb(134, 133, 133);
+    background-color: rgb(0, 88, 138);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*  ====== Contrast fixes ====== */
+.contrast-secondary {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.contrast-secondary h1 {
+    color: black;
+}
+
+.contrast-secondary h3 {
+    color: rgb(95, 95, 95);
+}
+
+.contrast-secondary p {
+    color: black;
+    font-weight: 500;
+}
+
+.contrast-secondary button {
+    color: white;
+}
